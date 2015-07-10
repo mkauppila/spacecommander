@@ -6,7 +6,7 @@ ConstructorInitializerIndentWidth: 4
 
 AlignAfterOpenBracket: true
 AlignEscapedNewlinesLeft: true
-AlignOperands: false
+AlignOperands: true
 AlignTrailingComments: true
 
 AllowAllParametersOfDeclarationOnNextLine: false
@@ -25,16 +25,16 @@ BreakBeforeBinaryOperators: None
 BreakBeforeTernaryOperators: false
 BreakConstructorInitializersBeforeComma: false
 
-BinPackArguments: true
-BinPackParameters: true
+BinPackArguments: false
+BinPackParameters: false
 ColumnLimit:     0
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
 DerivePointerAlignment: false
 ExperimentalAutoDetectBinPacking: false
 IndentCaseLabels: true
-IndentWrappedFunctionNames: false
+IndentWrappedFunctionNames: true
 IndentFunctionDeclarationAfterType: false
-MaxEmptyLinesToKeep: 2
+MaxEmptyLinesToKeep: 1
 KeepEmptyLinesAtTheStartOfBlocks: false
 NamespaceIndentation: Inner
 ObjCSpaceAfterProperty: true
@@ -60,10 +60,10 @@ SpacesInAngles:  false
 SpaceInEmptyParentheses: false
 SpacesInCStyleCastParentheses: false
 SpaceAfterCStyleCast: false
-SpacesInContainerLiterals: true
+SpacesInContainerLiterals: false
 SpaceBeforeAssignmentOperators: true
 
-ContinuationIndentWidth: 4
+ContinuationIndentWidth: 0
 CommentPragmas:  '^ IWYU pragma:'
 ForEachMacros:   [ foreach, Q_FOREACH, BOOST_FOREACH ]
 SpaceBeforeParens: ControlStatements
